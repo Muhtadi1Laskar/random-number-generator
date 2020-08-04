@@ -89,7 +89,6 @@ const execute = () => {
     if (numValue && selectValue) {
         let data = callFunc(numValue, selectValue);
         output.style.visibility = "visible";
-        output.classList.
         outputPlace.textContent = data;
         
     } else {
